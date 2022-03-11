@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - to print Programming is like building a multilingual puzzle
- * Return: should print 0 
+ * Return: 0  
  */
 int main(void)
 {
