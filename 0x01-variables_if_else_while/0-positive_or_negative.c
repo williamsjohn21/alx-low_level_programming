@@ -1,11 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - Entry point 
+ * main - Entry point
  *
- * Return: Alway 0 (Success/currect)
+ * Return: Always 0 (Successs/correct)
  */
+
 int main(void)
 {
 int n;
@@ -15,18 +17,19 @@ n = rand() - RAND_MAX / 2;
 
 if (n == 0)
 {
-printf ("%i is zero\n", n);
+printf("%i is zero\n", n);
 }
 
 else if (n < 0)
 {
-printf ("%i is negative\n", n);
+printf("%i is negative\n", n);
 }
 
 else
 {
-printf ("%i is positve\n", n);
+printf("%i is positive\n", n);
 }
 
-return(0);
+return (0);
+
 }
